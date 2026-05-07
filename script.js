@@ -13,7 +13,6 @@ class SlideController {
         this.backBtn = document.getElementById('btn-back');
         this.progressBars = document.querySelectorAll('.progress-bar');
         this.stepText = document.getElementById('step-text');
-        this.heroContent = document.getElementById('hero-content');
         this.heroSection = document.querySelector('.hero');
 
         this.init();
@@ -138,7 +137,8 @@ class SlideController {
                 document.querySelector('.progress-indicator').style.display = 'none';
             } else {
                 const errorData = await response.json();
-                throw new Error(errorData.message || 'Submission failed');
+                const detailMsg = errorData.details ? ` (${errorData.details})` : '';
+                throw new Error(`${errorData.message}${detailMsg}` || 'Submission failed');
             }
         } catch (error) {
             console.error('Submission error:', error);
@@ -242,17 +242,10 @@ class SlideController {
             this.nextBtn.innerText = 'Continue';
         }
 
-        // Update hero content visibility
-        if (this.heroContent) {
-            this.heroContent.style.display = (this.currentStep === 1) ? 'block' : 'none';
-        }
-
-        if (this.heroSection) {
-            this.heroSection.classList.toggle('compact', this.currentStep > 1);
-        }
+        // Hero section height is now consistent across all steps
 
         // Scroll to top of form
-        window.scrollTo({ top: 400, behavior: 'smooth' });
+        window.scrollTo({ top: 240, behavior: 'smooth' });
     }
 }
 

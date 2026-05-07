@@ -1,57 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Onboarding - Across America Mortgage</title>
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!-- Top Navigation -->
-    <header>
-      <div class="flex items-center gap-2">
-        <span
-          class="material-symbols-outlined logo-icon"
-          style="color: var(--color-secondary); font-size: 24px"
-          >account_balance</span
-        >
-        <span class="logo-text">Across America Mortgage</span>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Onboarding - Across America Mortgage</title>
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <img alt="Luxury Modern Property" src="/bg-image.jpeg" />
-        <div class="hero-overlay">
-          <div class="hero-icon-container">
-            <span class="material-symbols-outlined">house</span>
-          </div>
-          <div id="hero-content">
-            <h1 class="headline-xl">Ready to move fast?</h1>
-            <p class="body-lg" style="max-width: 600px; opacity: 0.9">
-              Share your details and our loan team will follow up within one
-              business day.
-            </p>
-          </div>
+<body>
+  <!-- Top Navigation -->
+  <header>
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined logo-icon"
+        style="color: var(--color-secondary); font-size: 24px">account_balance</span>
+      <span class="logo-text">Across America Mortgage</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img alt="Luxury Modern Property" src="/bg-image.jpeg" />
+      <div class="hero-overlay">
+        <div class="hero-icon-container">
+          <span class="material-symbols-outlined">house</span>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Onboarding Form -->
-      <div class="form-wrapper">
-        <div class="card" id="slide-container">
-          <!-- Slide 1: Timeline
+    <!-- Onboarding Form -->
+    <div class="form-wrapper">
+      <div class="card" id="slide-container">
+        <!-- Slide 1: Timeline
                 <div class="slide active" data-step="1">
                     <h2 class="headline-md">When will you need financing for your next real estate investment?</h2>
                     <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px;">
@@ -109,636 +97,449 @@
                     </div>
                 </div> -->
 
-          <!-- Slide 2: Loan Type -->
-          <div class="slide active" data-step="1">
-            <h2 class="headline-md">What type of loan do you need?</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Select your preferred loan option:
-            </p>
+        <!-- Slide 2: Loan Type -->
+        <div class="slide active" data-step="1">
+          <h2 class="headline-md">What type of loan do you need?</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Select your preferred loan option:
+          </p>
 
-            <div class="selection-group">
-              <button class="selection-option" data-value="rental-dscr">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">payments</span>
-                  </div>
-                  <span class="option-label">Rental / DSCR</span>
+          <div class="selection-group">
+            <button class="selection-option" data-value="rental-dscr">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">payments</span>
                 </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="fix-flip-bridge">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">construction</span>
-                  </div>
-                  <span class="option-label">Fix & Flip / Bridge</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button
-                class="selection-option"
-                data-value="ground-up-construction"
-              >
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">architecture</span>
-                  </div>
-                  <span class="option-label">Ground-up Construction</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-            </div>
-          </div>
-          <!-- Slide 3: Purpose -->
-          <div class="slide" data-step="2" style="display: none">
-            <h2 class="headline-md">Are you looking for:</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Identify the primary objective of this financing request.
-            </p>
-
-            <div class="selection-group">
-              <button class="selection-option" data-value="purchase">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">add_home</span>
-                  </div>
-                  <span class="option-label">Purchase</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="refinance">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">sync</span>
-                  </div>
-                  <span class="option-label">Refinance</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="cash-out-refinance">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined"
-                      >monetization_on</span
-                    >
-                  </div>
-                  <span class="option-label">Cash-Out Refinance</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-            </div>
-          </div>
-          <!-- Slide 4: Loan Amount -->
-          <div class="slide" data-step="3" style="display: none">
-            <h2 class="headline-md">Loan Amount</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Select the estimated loan amount you are seeking for this project.
-            </p>
-
-            <div class="selection-group">
-              <button class="selection-option" data-value="less-100k">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">savings</span>
-                  </div>
-                  <span class="option-label">Less than $75,000</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="100k-250k">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">payments</span>
-                  </div>
-                  <span class="option-label">$75,000 - $250,000</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="251k-500k">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined"
-                      >account_balance</span
-                    >
-                  </div>
-                  <span class="option-label">$251,000 - $500,000</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="501k-999k">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined"
-                      >account_balance_wallet</span
-                    >
-                  </div>
-                  <span class="option-label">$501,000 - $999,000</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="1m-plus">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined"
-                      >corporate_fare</span
-                    >
-                  </div>
-                  <span class="option-label">$1,000,000+</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-            </div>
-          </div>
-
-          <!-- Slide 5: Units -->
-          <div class="slide" data-step="4" style="display: none">
-            <h2 class="headline-md">Number of Units</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Specify the total number of residential or commercial units in the
-              property.
-            </p>
-
-            <div class="selection-group">
-              <button class="selection-option" data-value="1">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">home</span>
-                  </div>
-                  <span class="option-label">1</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="2-4">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">apartment</span>
-                  </div>
-                  <span class="option-label">2-4</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="5-plus">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">domain</span>
-                  </div>
-                  <span class="option-label">5+</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-            </div>
-          </div>
-
-          <!-- Slide 6: State -->
-          <div class="slide" data-step="5" style="display: none">
-            <h2 class="headline-md">In which state is the property located?</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Select the US state where your real estate investment project is
-              based.
-            </p>
-
-            <div class="form-group">
-              <label class="form-label" for="property-state"
-                >Select State</label
-              >
-              <select class="form-select" id="property-state" name="state">
-                <option value="" disabled selected>Choose a state...</option>
-                <option value="ALABAMA">ALABAMA</option>
-                <option value="ALASKA">ALASKA</option>
-                <option value="ARIZONA">ARIZONA</option>
-                <option value="CALIFORNIA">CALIFORNIA</option>
-                <option value="COLORADO">COLORADO</option>
-                <option value="CONNECTICUT">CONNECTICUT</option>
-                <option value="DELAWARE">DELAWARE</option>
-                <option value="DISTRICT OF COLUMBIA">
-                  DISTRICT OF COLUMBIA
-                </option>
-                <option value="FLORIDA">FLORIDA</option>
-                <option value="GEORGIA">GEORGIA</option>
-                <option value="HAWAII">HAWAII</option>
-                <option value="IDAHO">IDAHO</option>
-                <option value="ILLINOIS">ILLINOIS</option>
-                <option value="INDIANA">INDIANA</option>
-                <option value="IOWA">IOWA</option>
-                <option value="KANSAS">KANSAS</option>
-                <option value="KENTUCKY">KENTUCKY</option>
-                <option value="LOUISIANA">LOUISIANA</option>
-                <option value="MAINE">MAINE</option>
-                <option value="MARYLAND">MARYLAND</option>
-                <option value="MASSACHUSETTS">MASSACHUSETTS</option>
-                <option value="MICHIGAN">MICHIGAN</option>
-                <option value="MINNESOTA">MINNESOTA</option>
-                <option value="MISSISSIPPI">MISSISSIPPI</option>
-                <option value="MISSOURI">MISSOURI</option>
-                <option value="MONTANA">MONTANA</option>
-                <option value="NEBRASKA">NEBRASKA</option>
-                <option value="NEVADA">NEVADA</option>
-                <option value="NEW HAMPSHIRE">NEW HAMPSHIRE</option>
-                <option value="NEW JERSEY">NEW JERSEY</option>
-                <option value="NEW MEXICO">NEW MEXICO</option>
-                <option value="NEW YORK">NEW YORK</option>
-                <option value="NORTH CAROLINA">NORTH CAROLINA</option>
-                <option value="NORTH DAKOTA">NORTH DAKOTA</option>
-                <option value="OHIO">OHIO</option>
-                <option value="OKLAHOMA">OKLAHOMA</option>
-                <option value="OREGON">OREGON</option>
-                <option value="PENNSYLVANIA">PENNSYLVANIA</option>
-                <option value="RHODE ISLAND">RHODE ISLAND</option>
-                <option value="SOUTH CAROLINA">SOUTH CAROLINA</option>
-                <option value="SOUTH DAKOTA">SOUTH DAKOTA</option>
-                <option value="TENNESSEE">TENNESSEE</option>
-                <option value="TEXAS">TEXAS</option>
-                <option value="UTAH">UTAH</option>
-                <option value="VERMONT">VERMONT</option>
-                <option value="VIRGINIA">VIRGINIA</option>
-                <option value="WASHINGTON">WASHINGTON</option>
-                <option value="WEST VIRGINIA">WEST VIRGINIA</option>
-                <option value="WISCONSIN">WISCONSIN</option>
-                <option value="WYOMING">WYOMING</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- Slide 7: Credit Score -->
-          <div class="slide" data-step="6" style="display: none">
-            <h2 class="headline-md">Estimated Credit Score</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              Providing an accurate estimate helps us tailor the best financing
-              terms for you.
-            </p>
-
-            <div class="selection-group">
-              <button class="selection-option" data-value="below-620">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">speed</span>
-                  </div>
-                  <span class="option-label">Below 620</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="620-680">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">speed</span>
-                  </div>
-                  <span class="option-label">620 - 680</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="681-720">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span class="material-symbols-outlined">speed</span>
-                  </div>
-                  <span class="option-label">681 - 720</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="721-760">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span
-                      class="material-symbols-outlined"
-                      style="font-variation-settings: &quot;FILL&quot; 1"
-                      >speed</span
-                    >
-                  </div>
-                  <span class="option-label">721 - 760</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-
-              <button class="selection-option" data-value="760-plus">
-                <div class="option-content">
-                  <div class="option-icon">
-                    <span
-                      class="material-symbols-outlined"
-                      style="color: #ffd700"
-                      >workspace_premium</span
-                    >
-                  </div>
-                  <span class="option-label">760+</span>
-                </div>
-                <span
-                  class="material-symbols-outlined check-icon"
-                  style="color: var(--color-secondary-container); display: none"
-                  >check_circle</span
-                >
-                <span
-                  class="material-symbols-outlined chevron"
-                  style="color: #cbd5e1"
-                  >chevron_right</span
-                >
-              </button>
-            </div>
-          </div>
-
-          <!-- Slide 8: Contact Info -->
-          <div class="slide" data-step="7" style="display: none">
-            <h2 class="headline-md">Contact Information</h2>
-            <p
-              class="body-md"
-              style="color: var(--color-on-surface-variant); margin-top: 8px"
-            >
-              We'll review your loan scenario and follow-up within 24 hours.
-            </p>
-
-            <div class="form-group">
-              <label class="form-label" for="full-name">Full Name</label>
-              <input
-                type="text"
-                class="form-input"
-                id="full-name"
-                name="fullName"
-                placeholder="Enter your full name"
-                autocomplete="name"
-                required
-              />
-            </div>
-
-            <div class="form-group" style="margin-top: 24px">
-              <label class="form-label" for="email">Email</label>
-              <input
-                type="email"
-                class="form-input"
-                id="email"
-                name="email"
-                placeholder="name@example.com"
-                autocomplete="email"
-                required
-              />
-              <p
-                class="caption"
-                style="margin-top: 8px; color: var(--color-on-surface-variant)"
-              >
-                Across America Mortgage may contact you to follow up.
-              </p>
-            </div>
-
-            <div class="form-group" style="margin-top: 24px">
-              <label class="form-label" for="phone">Phone Number</label>
-              <input
-                type="tel"
-                class="form-input"
-                id="phone"
-                name="phone"
-                placeholder="(555) 000-0000"
-                autocomplete="tel"
-                required
-              />
-            </div>
-          </div>
-
-          <!-- Slide 9: Success -->
-          <div class="slide" data-step="8" style="display: none">
-            <div style="text-align: center; padding: 40px 20px;">
-              <div class="option-icon" style="width: 80px; height: 80px; margin: 0 auto 24px; background: var(--color-secondary-container); color: var(--color-on-secondary-container); display: flex; align-items: center; justify-content: center; border-radius: 50%;">
-                <span class="material-symbols-outlined" style="font-size: 48px;">check_circle</span>
+                <span class="option-label">Rental / DSCR</span>
               </div>
-              <h2 class="headline-md">Thank you!</h2>
-              <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 16px; line-height: 1.6;">
-                Your loan inquiry has been received. Our team will review your details and reach out to you within one business day.
-              </p>
-              <button class="btn btn-primary" onclick="window.location.reload()" style="margin-top: 32px;">START NEW INQUIRY</button>
-            </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="fix-flip-bridge">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">construction</span>
+                </div>
+                <span class="option-label">Fix & Flip / Bridge</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="ground-up-construction">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">architecture</span>
+                </div>
+                <span class="option-label">Ground-up Construction</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+          </div>
+        </div>
+        <!-- Slide 3: Purpose -->
+        <div class="slide" data-step="2" style="display: none">
+          <h2 class="headline-md">Are you looking for:</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Identify the primary objective of this financing request.
+          </p>
+
+          <div class="selection-group">
+            <button class="selection-option" data-value="purchase">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">add_home</span>
+                </div>
+                <span class="option-label">Purchase</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="refinance">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">sync</span>
+                </div>
+                <span class="option-label">Refinance</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="cash-out-refinance">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">monetization_on</span>
+                </div>
+                <span class="option-label">Cash-Out Refinance</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+          </div>
+        </div>
+        <!-- Slide 4: Loan Amount -->
+        <div class="slide" data-step="3" style="display: none">
+          <h2 class="headline-md">Loan Amount</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Select the estimated loan amount you are seeking for this project.
+          </p>
+
+          <div class="selection-group">
+            <button class="selection-option" data-value="less-100k">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">savings</span>
+                </div>
+                <span class="option-label">Less than $75,000</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="100k-250k">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">payments</span>
+                </div>
+                <span class="option-label">$75,000 - $250,000</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="251k-500k">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">account_balance</span>
+                </div>
+                <span class="option-label">$251,000 - $500,000</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="501k-999k">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">account_balance_wallet</span>
+                </div>
+                <span class="option-label">$501,000 - $999,000</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="1m-plus">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">corporate_fare</span>
+                </div>
+                <span class="option-label">$1,000,000+</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Slide 5: Units -->
+        <div class="slide" data-step="4" style="display: none">
+          <h2 class="headline-md">Number of Units</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Specify the total number of residential or commercial units in the
+            property.
+          </p>
+
+          <div class="selection-group">
+            <button class="selection-option" data-value="1">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">home</span>
+                </div>
+                <span class="option-label">1</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="2-4">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">apartment</span>
+                </div>
+                <span class="option-label">2-4</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="5-plus">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">domain</span>
+                </div>
+                <span class="option-label">5+</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Slide 6: State -->
+        <div class="slide" data-step="5" style="display: none">
+          <h2 class="headline-md">In which state is the property located?</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Select the US state where your real estate investment project is
+            based.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label" for="property-state">Select State</label>
+            <select class="form-select" id="property-state" name="state">
+              <option value="" disabled selected>Choose a state...</option>
+              <option value="ALABAMA">ALABAMA</option>
+              <option value="ALASKA">ALASKA</option>
+              <option value="ARIZONA">ARIZONA</option>
+              <option value="CALIFORNIA">CALIFORNIA</option>
+              <option value="COLORADO">COLORADO</option>
+              <option value="CONNECTICUT">CONNECTICUT</option>
+              <option value="DELAWARE">DELAWARE</option>
+              <option value="DISTRICT OF COLUMBIA">
+                DISTRICT OF COLUMBIA
+              </option>
+              <option value="FLORIDA">FLORIDA</option>
+              <option value="GEORGIA">GEORGIA</option>
+              <option value="HAWAII">HAWAII</option>
+              <option value="IDAHO">IDAHO</option>
+              <option value="ILLINOIS">ILLINOIS</option>
+              <option value="INDIANA">INDIANA</option>
+              <option value="IOWA">IOWA</option>
+              <option value="KANSAS">KANSAS</option>
+              <option value="KENTUCKY">KENTUCKY</option>
+              <option value="LOUISIANA">LOUISIANA</option>
+              <option value="MAINE">MAINE</option>
+              <option value="MARYLAND">MARYLAND</option>
+              <option value="MASSACHUSETTS">MASSACHUSETTS</option>
+              <option value="MICHIGAN">MICHIGAN</option>
+              <option value="MINNESOTA">MINNESOTA</option>
+              <option value="MISSISSIPPI">MISSISSIPPI</option>
+              <option value="MISSOURI">MISSOURI</option>
+              <option value="MONTANA">MONTANA</option>
+              <option value="NEBRASKA">NEBRASKA</option>
+              <option value="NEVADA">NEVADA</option>
+              <option value="NEW HAMPSHIRE">NEW HAMPSHIRE</option>
+              <option value="NEW JERSEY">NEW JERSEY</option>
+              <option value="NEW MEXICO">NEW MEXICO</option>
+              <option value="NEW YORK">NEW YORK</option>
+              <option value="NORTH CAROLINA">NORTH CAROLINA</option>
+              <option value="NORTH DAKOTA">NORTH DAKOTA</option>
+              <option value="OHIO">OHIO</option>
+              <option value="OKLAHOMA">OKLAHOMA</option>
+              <option value="OREGON">OREGON</option>
+              <option value="PENNSYLVANIA">PENNSYLVANIA</option>
+              <option value="RHODE ISLAND">RHODE ISLAND</option>
+              <option value="SOUTH CAROLINA">SOUTH CAROLINA</option>
+              <option value="SOUTH DAKOTA">SOUTH DAKOTA</option>
+              <option value="TENNESSEE">TENNESSEE</option>
+              <option value="TEXAS">TEXAS</option>
+              <option value="UTAH">UTAH</option>
+              <option value="VERMONT">VERMONT</option>
+              <option value="VIRGINIA">VIRGINIA</option>
+              <option value="WASHINGTON">WASHINGTON</option>
+              <option value="WEST VIRGINIA">WEST VIRGINIA</option>
+              <option value="WISCONSIN">WISCONSIN</option>
+              <option value="WYOMING">WYOMING</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Slide 7: Credit Score -->
+        <div class="slide" data-step="6" style="display: none">
+          <h2 class="headline-md">Estimated Credit Score</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            Providing an accurate estimate helps us tailor the best financing
+            terms for you.
+          </p>
+
+          <div class="selection-group">
+            <button class="selection-option" data-value="below-620">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">speed</span>
+                </div>
+                <span class="option-label">Below 620</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="620-680">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">speed</span>
+                </div>
+                <span class="option-label">620 - 680</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="681-720">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined">speed</span>
+                </div>
+                <span class="option-label">681 - 720</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="721-760">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined"
+                    style="font-variation-settings: &quot;FILL&quot; 1">speed</span>
+                </div>
+                <span class="option-label">721 - 760</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+
+            <button class="selection-option" data-value="760-plus">
+              <div class="option-content">
+                <div class="option-icon">
+                  <span class="material-symbols-outlined" style="color: #ffd700">workspace_premium</span>
+                </div>
+                <span class="option-label">760+</span>
+              </div>
+              <span class="material-symbols-outlined check-icon"
+                style="color: var(--color-secondary-container); display: none">check_circle</span>
+              <span class="material-symbols-outlined chevron" style="color: #cbd5e1">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Slide 8: Contact Info -->
+        <div class="slide" data-step="7" style="display: none">
+          <h2 class="headline-md">Contact Information</h2>
+          <p class="body-md" style="color: var(--color-on-surface-variant); margin-top: 8px">
+            We'll review your loan scenario and follow-up within 24 hours.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label" for="full-name">Full Name</label>
+            <input type="text" class="form-input" id="full-name" name="fullName" placeholder="Enter your full name"
+              autocomplete="name" required />
           </div>
 
-          <!-- Progress -->
-          <div class="progress-indicator">
-            <div class="progress-bars">
-              <div class="progress-bar active"></div>
-              <div class="progress-bar"></div>
-              <div class="progress-bar"></div>
-              <div class="progress-bar"></div>
-              <div class="progress-bar"></div>
-              <div class="progress-bar"></div>
-              <div class="progress-bar"></div>
+          <div class="form-group" style="margin-top: 24px">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" class="form-input" id="email" name="email" placeholder="name@example.com"
+              autocomplete="email" required />
+            <p class="caption" style="margin-top: 8px; color: var(--color-on-surface-variant)">
+              Across America Mortgage may contact you to follow up.
+            </p>
+          </div>
+
+          <div class="form-group" style="margin-top: 24px">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input type="tel" class="form-input" id="phone" name="phone" placeholder="(555) 000-0000" autocomplete="tel"
+              required />
+          </div>
+        </div>
+
+        <!-- Slide 9: Success -->
+        <div class="slide" data-step="8" style="display: none">
+          <div style="text-align: center; padding: 40px 20px">
+            <div class="option-icon" style="
+                  width: 80px;
+                  height: 80px;
+                  margin: 0 auto 24px;
+                  background: var(--color-secondary-container);
+                  color: var(--color-on-secondary-container);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 50%;
+                ">
+              <span class="material-symbols-outlined" style="font-size: 48px">check_circle</span>
             </div>
-            <span
-              class="caption"
-              id="step-text"
-              style="
+            <h2 class="headline-md">Thank you!</h2>
+            <p class="body-md" style="
+                  color: var(--color-on-surface-variant);
+                  margin-top: 16px;
+                  line-height: 1.6;
+                ">
+              Your loan inquiry has been received. Our team will review your
+              details and reach out to you as soon as possible.
+            </p>
+            <button class="btn btn-primary" onclick="window.location.reload()" style="margin-top: 32px">
+              START NEW INQUIRY
+            </button>
+          </div>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-indicator">
+          <div class="progress-bars">
+            <div class="progress-bar active"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+            <div class="progress-bar"></div>
+          </div>
+          <span class="caption" id="step-text" style="
                 color: var(--color-on-surface-variant);
                 text-transform: uppercase;
                 letter-spacing: 0.1em;
-              "
-              >Step 1 of 7</span
-            >
-          </div>
+              ">Step 1 of 7</span>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <!-- Footer Action Bar -->
-    <footer class="footer-actions">
-      <button class="btn btn-ghost" id="btn-back" style="visibility: hidden">
-        BACK
-      </button>
-      <div style="display: flex; flex-direction: column; align-items: flex-end">
-        <div class="error-container">
-          <span class="error-text" id="error-message"
-            >Please make a selection</span
-          >
-        </div>
-        <button class="btn btn-primary" id="btn-continue">CONTINUE</button>
+  <!-- Footer Action Bar -->
+  <footer class="footer-actions">
+    <button class="btn btn-ghost" id="btn-back" style="visibility: hidden">
+      BACK
+    </button>
+    <div style="display: flex; flex-direction: column; align-items: flex-end">
+      <div class="error-container">
+        <span class="error-text" id="error-message">Please make a selection</span>
       </div>
-    </footer>
+      <button class="btn btn-primary" id="btn-continue">CONTINUE</button>
+    </div>
+  </footer>
 
-    <!-- Scripts -->
-    <script src="script.js"></script>
-  </body>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
 </html>
