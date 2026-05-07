@@ -142,7 +142,11 @@ class SlideController {
             }
         } catch (error) {
             console.error('Submission error:', error);
-            alert('Sorry, there was an error submitting your request. Please try again or contact us directly.');
+            const errorMessage = error.message.includes('Unexpected token') 
+                ? 'The server did not return a valid response. Are you running with "vercel dev"?' 
+                : error.message;
+            
+            alert(`Submission Error: ${errorMessage}`);
             
             // Reset button state
             submitBtn.disabled = false;
