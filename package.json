@@ -1,0 +1,12 @@
+{
+  "name": "mortgage-onboarding-form",
+  "version": "1.0.0",
+  "description": "Mortgage onboarding form with Vercel API submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
