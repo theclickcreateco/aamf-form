@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     const mailOptions = {
         from: `"Across America Mortgage Form" <${process.env.EMAIL_USER}>`,
-        to: 'theclickcreateco@gmail.com',
+        to: process.env.EMAIL_USER,
         subject: `New Loan Inquiry: ${contactInfo.fullName}`,
         html: `
             <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
